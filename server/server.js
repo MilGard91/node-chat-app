@@ -8,8 +8,8 @@ const port = process.env.PORT || 3000;
 
 app.use(express.static(publicPath));
 
-app.get('/', (req, res) => {
-  res.render('index.html');
-});
+// app.get('/', (req, res) => {
+//   res.render('index.html');
+// });
 
 app.listen(3000, () => console.log(`Server started on port ${port}...`))
